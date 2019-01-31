@@ -1,0 +1,167 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.detail {
+  font-size: 120%;
+  background-image: url();
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  
+}
+.header {
+  width: 30%;
+  margin: 50px auto 0px;
+  color: white;
+  background: #007cc2;
+  text-align: center;
+  border: 1px solid #B0C4DE;
+  border-bottom: none;
+  border-radius: 10px 10px 0px 0px;
+  padding: 20px;
+}
+/*form, .content {*/
+  
+/*  margin: 0px auto;*/
+/*  padding: 20px;*/
+/*  border: 1px solid #B0C4DE;*/
+/*  background: white;*/
+/*  border-radius: 0px 0px 10px 10px;*/
+/*}*/
+.input-group {
+  margin: 10px 0px 10px 0px;
+}
+.input-group label {
+  display: block;
+  text-align: left;
+  margin: 3px;
+}
+.input-group input {
+  height: 30px;
+  width: 93%;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid gray;
+  text-align: center;
+}
+.btn {
+  padding: 10px;
+  font-size: 15px;
+  color: white;
+  background: #007cc2;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}
+.success {
+  color: #3c763d; 
+  background: #dff0d8; 
+  border: 1px solid #3c763d;
+  margin-bottom: 20px;
+}
+.forgotten-password{
+  text-align: center;
+  
+  
+}
+.register-title{
+  text-align: left;
+  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  
+}
+.email-text{
+
+}
+.input-group-email{
+  text-align: center;
+  line-height: 1.6;
+  
+  
+}
+.input-group-btn{
+  text-align: center;
+  
+  
+}
+.input-group-btn-sign-in{
+  text-align: center;
+  
+}
+
+.join-text-group{
+  line-height: 1.6;
+ text-align: center; 
+}
+
+.help-btn{
+  position: fixed;
+  bottom: 50px;
+  left: 20px;
+  font-size: 40px;
+  
+}
+.forgotten-password-link{
+  text-align: center;
+}
+
+.dropdown-specifications{
+  
+  
+  
+}
+
+.search_cars_btn{
+text-align: right;
+  
+  
+}
+
+
+.detail-Body{
+ 
+
+ background-position: center;
+  background-repeat: no-repeat;
+  height: 50%;
+  width: 100%;
+  filter:brightness(50%);
+  
+}
+
+
+.detail-Body > img{
+  max-width: 100%;
+
+}
+
+.h1{
+  text-align:center;
+  color:white;
+  position: relative;
+  bottom: 350px;
+}
+ .carousel-inner{
+       // height: 300px;
+    }
+
+    .item, img{
+        height: 50% ;
+        width:  100% ;
+        border: 1px solid red;
+    }
+    
