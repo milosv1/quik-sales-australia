@@ -4,8 +4,8 @@
       <span class="icon-bar"></span>
       <span class="icon-bar"></span>                        
     </button>
-    <a class="navbar-brand" href="#">Quik-Sales Australia</a>
-    <form class="form-inline">
+    <a class="navbar-brand" href="index.php">Quik-Sales Australia</a>
+   <!-- <form class="form-inline">
       <div class="form-group mx-2">
         <label for="make" class="mr-1">Make</label>
         <select class="form-control" id="make">
@@ -48,9 +48,15 @@
         </select>
       </div>
       <button type="Submit" class="btn btn-primary">Search</button>
+    </form>-->
+     <div class="flex-fill order-sm-3 order-3">
+    <form class="form-inline my-2 my-lg-0 justify-content-center flex-nowrap" method="get" action="search.php">
+      <input class="form-control mr-sm-2 flex-sm-grow-1 flex-md-grow-0" type="search" placeholder="Search Car Name" aria-label="Search" name="search">
+      <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
     </form>
-    <div class="d-flex flex-row user-nav">
-     <a href="register.php" class="nav-link">Sign Up</a>
+  </div>
+    <div class="d-flex flex-row user-nav order-8">
+     <a href="register.php" class="nav-link" >Sign Up</a>
      <a href="login.php" class="nav-link">Login</a>
     </div>
     <div class="collapse navbar-collapse" id="myNavbar">

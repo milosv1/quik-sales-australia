@@ -7,6 +7,7 @@
   </head>
   
   <body>
+    
      <?php include('includes/head.php'); ?>
     <?php include('includes/navigation.php'); ?>
     
@@ -41,12 +42,16 @@ else
       $car_image = $result['car_image'];
       
       
-      echo "<h4>vehicle ID: $id</h1>";
+   //   echo "<h4>vehicle ID: $id</h1>";
       echo "<h4>$model</h4>";
       echo "<p>$location</p>"; //test
       echo "<p>$make</p>";
       echo "<p>$ $price</p>";
       echo "<img src=\"images/$car_image\">";
+      echo "<br></br>";
+      echo "<a href=\"detail.php?id=$id\">More on this $model from $location!</a>";
+      echo "<br></br>";
+
    }
       
  

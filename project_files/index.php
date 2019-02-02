@@ -12,14 +12,14 @@
  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
     <div class="carousel-inner">
       <div class="carousel-item active">
-          <img class="d-block w-100 h-100 " src="mazda.jpg" alt="First slide">
+          <img class="d-block w-100 " src="mazda.jpg" alt="First slide">
           <?php // this is a test echo "<p>". "test". $firstname['firstname'] ."</p>"; ?>
       </div>
        <div class="carousel-item ">
-        <img class="d-block w-100 h-100" src="mazdatwo.jpg" alt="Second slide">
+        <img class="d-block w-100 " src="mazdatwo.jpg" alt="Second slide">
       </div>
        <div class="carousel-item ">
-        <img class="d-block w-100  h-100" src="holden.jpg" alt="third slide">
+        <img class="d-block w-100 " src="holden.jpg" alt="third slide">
         
       </div>
      
@@ -33,7 +33,22 @@
       <span class="sr-only">Next</span>
     </a>
 </div>
- 
+
+ <div  class="container" >
+  <h2>Catergories</h2>
+  <div class = "row">
+   <div class ="col-md-2">
+  <img src="Toyota_logo.Jpg"  class="d-block w-100 h-100" >
+   </div>
+   <div class ="col-md-2">
+   <img src="hundai_logo.Jpg" class="inline-block w-100 h-100 " >
+ </div>
+  </div>
+  </div>
+  <div class="my-4" style="width: 200px;"></div>
+  
+
+  
  <?php include('includes/footer.php'); ?>
  
 </body>

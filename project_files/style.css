@@ -155,13 +155,7 @@ text-align: right;
   position: relative;
   bottom: 350px;
 }
- .carousel-inner{
-       // height: 300px;
-    }
+ 
 
-    .item, img{
-        height: 50% ;
-        width:  100% ;
-        border: 1px solid red;
-    }
+    
     
