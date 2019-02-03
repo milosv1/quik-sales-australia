@@ -13,7 +13,6 @@
     <div class="carousel-inner">
       <div class="carousel-item active">
           <img class="d-block w-100 " src="mazda.jpg" alt="First slide">
-          <?php // this is a test echo "<p>". "test". $firstname['firstname'] ."</p>"; ?>
       </div>
        <div class="carousel-item ">
         <img class="d-block w-100 " src="mazdatwo.jpg" alt="Second slide">
@@ -38,9 +37,12 @@
   <h2>Catergories</h2>
   <div class = "row">
    <div class ="col-md-2">
-  <img src="Toyota_logo.Jpg"  class="d-block w-100 h-100" >
-   </div>
+    <!-- Please make this logo clickable -> it should lead to get_toyota_Models.php-->
+    <img src="Toyota_logo.Jpg"  class="d-block w-100 h-100" > 
+     
+  </div>
    <div class ="col-md-2">
+    <!-- Also make this logo clickable -> it should lead to get_hyundai_models.php-->
    <img src="hundai_logo.Jpg" class="inline-block w-100 h-100 " >
  </div>
   </div>

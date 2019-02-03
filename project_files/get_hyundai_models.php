@@ -8,7 +8,7 @@
 
     <body>
     
-     
+      <!-- these are the needed bootstrap items header & Navigation of our page-->
        <?php include('includes/head.php'); ?>
       <?php include('includes/navigation.php'); ?>
          <?php 
@@ -39,7 +39,7 @@
                  $price = $result['price'];
                  $location = $result['location'];
                  
-                 //now we can display the results
+                 //now we can display the results onto our page
                  echo "<h4>$model</h4>";
                  echo "<p>$location</p>";
                  echo "<p>$make</p>";
@@ -48,7 +48,7 @@
                  echo "<br></br>";
          }      
          ?>
-         
+         <!-- our footer also from Bootstrap.-->
       <?php include('includes/footer.php'); ?>   
     </body>
 
