@@ -51,7 +51,8 @@
   
        <!--<div class="banner-content banner-content-center"> -->
          
-          
+       <div class="container" >
+        <div class= "row">
  <?php 
 //what we capture.
  $id = $_GET['id'];
@@ -60,7 +61,7 @@
  $db = mysqli_connect('localhost', 'quiksalesaus','passwordjagodina','quik_sales_australia');
 
   if($db){
-      echo "Connection established";
+      //echo "Connection established";
  
         }else{
  
@@ -79,25 +80,40 @@
    $result = $statement -> get_result();
 
    $row = $result -> fetch_assoc();
-
-//print_r($row);
-  $car_id = $row['car_id'];
-  $make = $row['make'];
-  $model = $row['model'];
-  $price = $row['price'];
-  $car_image = $row['car_image'];
-
-
-  //echo "<h1>$car_id</h1>";
-  echo "<p>$make</p>";
-  echo "<p>$model</p>";
-  echo "<p>$price</p>";
-  echo "<img src=\"images/$car_image\">";
-
-
-
-
-?>
+  ?>
+  
+  <div class="container">
+    <div class="row">
+     <?php
+   //print_r($row);
+     $car_id = $row['car_id'];
+     $make = $row['make'];
+     $model = $row['model'];
+     $price = $row['price'];
+     
+     $car_image = $row['car_image'];
+   
+   
+     echo "<div class=\"col-md-6\">";
+     //echo "<h1>$car_id</h1>";
+     echo "<h4>$model</h4>";
+     echo "<p>Make: $make</p>";
+     echo "<p>Price: $$price</p>";
+     echo "</div>";
+     
+     echo "<div class=\"col-md-6\">";
+     echo "<img src=\"images/$car_image\">";
+     
+     echo "<br></br>";
+     echo "</div>";
+   
+   
+   ?>
+    </div>
+  </div>
+  
+</div>
+  </div>    
           
        <!--</div>-->
       <?php include('includes/footer.php'); ?>

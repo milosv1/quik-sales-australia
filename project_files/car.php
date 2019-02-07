@@ -10,6 +10,9 @@
     
      <?php include('includes/head.php'); ?>
     <?php include('includes/navigation.php'); ?>
+      <div class="container">
+  <div class="row">
+    
     
 <?php
 
@@ -17,7 +20,7 @@ $db = mysqli_connect('localhost', 'quiksalesaus','passwordjagodina','quik_sales_
 
 if( $db ){
   
-  echo "connection Established!";
+ // echo "connection Established!";
   
 }
 else
@@ -26,10 +29,12 @@ else
 }
 
 //query
+
   $query = "SELECT car_id,model,make,location,price,car_image FROM car";
   
   
   $info = mysqli_query($db, $query);
+ 
  
    while($result = mysqli_fetch_assoc($info)){
       
@@ -42,21 +47,28 @@ else
       $car_image = $result['car_image'];
       
       
+      
+      
    //   echo "<h4>vehicle ID: $id</h1>";
+   echo "<div class =\"col-md-4\">";
       echo "<h4>$model</h4>";
       echo "<p>$location</p>"; //test
       echo "<p>$make</p>";
       echo "<p>$ $price</p>";
       echo "<img src=\"images/$car_image\">";
+    
       echo "<br></br>";
       echo "<a href=\"detail.php?id=$id\">More on this $model from $location!</a>";
       echo "<br></br>";
+      echo "</div>";
 
    }
       
  
 
 ?>
+</div>
+</div>
     <?php include('includes/footer.php'); ?>
   </body>
 </html>

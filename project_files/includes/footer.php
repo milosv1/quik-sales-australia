@@ -59,7 +59,7 @@
           <!-- Content -->
           <h6 class="text-uppercase font-weight-bold">Quik-Sales Australia</h6>
           <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>Quik-Sales Australia is an online allowing users all over Australia to Buy/Sell their Vehicles Online in no time!.</p>
+          <p>Quik-Sales Australia is an online platform allowing users all over Australia to Buy/Sell their Vehicles Online in no time!.</p>
 
         </div>
         <!-- Grid column -->
@@ -78,6 +78,9 @@
           </p>
           <p>
             <a href="https://twitter.com/">Twitter</a>
+          </p>
+          <p>
+            <a href="https://github.com/milosv1/quik-sales-australia">GitHub</a>
           </p>
         </div>
         <!-- Grid column -->
@@ -110,10 +113,7 @@
           <!-- Links -->
           <h6 class="text-uppercase font-weight-bold">Contacts</h6>
           <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>
-           <!-- <i class="fas fa-home mr-3"></i>NSW Based Business</p> -->
-          <p>
-            <i class="fas fa-envelope mr-3"></i> reception@quiksalesaustralia.com</p>
+           <i class="fas fa-envelope mr-3"></i> reception@quiksalesaustralia.com</p>
           <p>
             <i class="fas fa-phone mr-3"></i>Local: 0491 570 157</p>
           <p>

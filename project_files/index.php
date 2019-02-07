@@ -6,7 +6,7 @@
 <?php include('includes/navigation.php'); ?>
 <?php include('includes/project_images'); ?>
 <?php include('project_files/server.php'); ?>
-
+<?php include('include/server.php'); ?>
 
  
  <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
@@ -33,7 +33,7 @@
     </a>
 </div>
 
- <div  class="container" >
+ <div class="container" >
   <h2>Catergories</h2>
   <div class = "row">
    <div class ="col-md-2">
@@ -42,14 +42,18 @@
      
   </div>
    <div class ="col-md-2">
+   
     <!-- Also make this logo clickable -> it should lead to get_hyundai_models.php-->
-   <img src="hundai_logo.Jpg" class="inline-block w-100 h-100 " >
- </div>
+   
+   <img src="hundai_logo.Jpg" class= "inline-block w-100 h-100 " >
+   
+    <a href="$get_model.php" class ="nav_link">Hyundai</a>
+ 
+   
+  </div>
   </div>
   </div>
   <div class="my-4" style="width: 200px;"></div>
-  
-
   
  <?php include('includes/footer.php'); ?>
  

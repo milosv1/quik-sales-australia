@@ -51,7 +51,7 @@
     </form>-->
      <div class="flex-fill order-sm-3 order-3">
     <form class="form-inline my-2 my-lg-0 justify-content-center flex-nowrap" method="get" action="search.php">
-      <input class="form-control mr-sm-2 flex-sm-grow-1 flex-md-grow-0" type="search" placeholder="Search Car Name" aria-label="Search" name="search">
+      <input class="form-control mr-sm-2 flex-sm-grow-1 flex-md-grow-0" type="search" placeholder="Search Car Model" aria-label="Search" name="search">
       <button class="btn btn-outline-dark my-2 my-sm-0" type="submit">Search</button>
     </form>
   </div>
