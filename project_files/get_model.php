@@ -1,5 +1,3 @@
-<!--This page is part of the Categories section  -->
-<!--this only shows Hyundai Models. -->
 <!DOCTYPE html>
 <html>
         <head>

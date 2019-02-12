@@ -2,6 +2,7 @@
   margin: 0px;
   padding: 0px;
 }
+
 .detail {
   font-size: 120%;
   background-image: url();
@@ -40,13 +41,16 @@
   margin: 3px;
 }
 .input-group input {
-  height: 30px;
-  width: 93%;
+  height: 20px;
+  width: 70%;
   padding: 5px 10px;
   font-size: 16px;
   border-radius: 5px;
   border: 1px solid gray;
   text-align: center;
+  
+  
+  
 }
 .btn {
   padding: 10px;
@@ -155,6 +159,7 @@ text-align: right;
   position: relative;
   bottom: 350px;
 }
+ 
  
 
     

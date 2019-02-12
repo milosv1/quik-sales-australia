@@ -99,6 +99,7 @@
      echo "<h4>$model</h4>";
      echo "<p>Make: $make</p>";
      echo "<p>Price: $$price</p>";
+     echo "<input type=\"submit\" value=\"Enquire About this $make $model today!\">";
      echo "</div>";
      
      echo "<div class=\"col-md-6\">";
