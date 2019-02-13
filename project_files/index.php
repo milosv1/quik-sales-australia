@@ -1,10 +1,9 @@
  <!DOCTYPE html>
 <html>
-
+ 
 <body>
  <?php include('includes/head.php'); ?>
 <?php include('includes/navigation.php'); ?>
-<?php include('includes/project_images'); ?>
 <?php include('project_files/server.php'); ?>
 <?php include('include/server.php'); ?>
 
@@ -34,12 +33,13 @@
 </div>
 
  <div class="container" >
-  <h2>Catergories</h2>
+  <?php echo"<br></br>"?>
+  <!--<h2>Catergories</h2>-->
   <div class = "row">
    <div class ="col-md-2">
     <!-- Please make this logo clickable -> it should lead to get_toyota_Models.php-->
-     <a href="get_model.php?brand=toyota" class="btn btn-primary">Toyota</a>
-      <a href="get_model.php?brand=hyundai" class="btn btn-primary">Hyundai</a>
+     <a href="get_model.php?make=toyota" class="btn btn-primary">Toyota</a>
+      <a href="get_model.php?make=hyundai" class="btn btn-primary">Hyundai</a>
      
   </div>
    <div class ="col-md-2">
