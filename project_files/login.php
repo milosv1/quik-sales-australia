@@ -19,11 +19,11 @@
   	  
   	  
   	
-  	<div class="input-group">
+  	<div class="input-group" style="margin-left:100px">
   		<label>Email Address</label>
   		<input type="text" placeholder="Email Address"name="email" required>
   	</div>
-  	<div class="input-group">
+  	<div class="input-group" style="margin-left:100px">
   	  
   		<label>Password</label>
   		  	<input type="password"  placeholder="Password" name="password" required>

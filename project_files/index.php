@@ -38,16 +38,19 @@
   <div class = "row">
    <div class ="col-md-2">
     <!-- Please make this logo clickable -> it should lead to get_toyota_Models.php-->
-    <img src="Toyota_logo.Jpg"  class="d-block w-100 h-100" > 
+     <a href="get_model.php?brand=toyota" class="btn btn-primary">Toyota</a>
+      <a href="get_model.php?brand=hyundai" class="btn btn-primary">Hyundai</a>
      
   </div>
    <div class ="col-md-2">
    
     <!-- Also make this logo clickable -> it should lead to get_hyundai_models.php-->
    
-   <img src="hundai_logo.Jpg" class= "inline-block w-100 h-100 " >
+   <!--<a href="showcar.php?brand=hyundai" class="btn btn-primary">Hyundai</a>-->
    
-    <a href="$get_model.php" class ="nav_link">Hyundai</a>
+   <!--<img src="hundai_logo.Jpg" class= "inline-block w-100 h-100 " >-->
+   
+    <!--<a href="$get_model.php" class ="nav_link">Hyundai</a>-->
  
    
   </div>

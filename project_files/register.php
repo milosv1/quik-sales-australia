@@ -11,12 +11,15 @@
      <h2 align="center"></a>Create an account</h2>
   	 </div>
 	<div class="container-fluid">
-	  <div class="row">
-  <form method="post" action="server.php"id="server" class="col-md-4 offset-md-4">
+      <div class="row">
+        <form method="post" action="register.php" class="col-md-4 offset-md-4">
+  <form method="post" action="server.php">
   	<?php include('errors.php'); ?>
-  	<div class="input-group">
-  	    <!--<h2 align="center">Create an account</h2> -->
-  	  <input type="text"name="firstname" placeholder="First Name" value="<?php echo $firstname; ?>">
+  	
+  	  
+  	    <h2 align="center">Create an account</h2>
+  	    <div class="input-group">
+  	  <input type="text" name="firstname" placeholder="First Name" value="<?php echo $firstname; ?>">
   	</div>
   	<div class="input-group">
   
@@ -41,6 +44,5 @@
   		  
   		</div>
   </form>
- 
 </body>
 </html>

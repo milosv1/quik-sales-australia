@@ -5,7 +5,7 @@
         </head>
 
     <body>
-        <h1>Welcome! <?php $_SESSION['email']; ?> </h1>
+        <!--<h1>Welcome! <?php $_SESSION['email']; ?> </h1>-->
       <!-- these are the needed bootstrap items header & Navigation of our page-->
        <?php include('includes/head.php'); ?>
       <?php include('includes/navigation.php'); ?>
