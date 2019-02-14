@@ -2,32 +2,32 @@
 
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Quik-Sales Australia Registration</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+<?php include('includes/head.php')?>
 <body>
   <div class="header">
      <h2 align="center"></a>Create an account</h2>
   	 </div>
-	<div class="container-fluid">
+	<div class="container">
       <div class="row">
-        <form method="post" action="register.php" class="col-md-4 offset-md-4">
-  <form method="post" action="server.php">
+        <form method="post" action="server.php" class="col-md-4 offset-md-4">
+  <!--<form method="post" action="server.php">-->
   	<?php include('errors.php'); ?>
   	
   	  
-  	    <h2 align="center">Create an account</h2>
-  	    <div class="input-group">
-  	  <input type="text" name="firstname" placeholder="First Name" value="<?php echo $firstname; ?>">
+  	    <!--<h2 align="center">Create an account</h2>-->
+  	    <div class="form-group">
+  	      <label for="firstname">First Name</label>
+  	      <input type="text" class="form-control" id="firstname" name="firstname" placeholder="First Name" value="<?php echo $firstname; ?>">
+  	    </div>
+  	    
+  	<div class="form-group">
+      <label for="email">Email</label>
+  	  <input type="email"  class="form-control" name="email" id="email" placeholder="Email Address" value="<?php echo $email; ?>">
   	</div>
-  	<div class="input-group">
-  
-  	  <input type="email" name="email" placeholder="Email Address" value="<?php echo $email; ?>">
-  	</div>
-  	<div class="input-group">
-  	 
-  	  <input type="password" placeholder="Password" name="password">
+  	
+  	<div class="form-group">
+  	 <label for="email">Password</label>
+  	  <input type="password" class="form-control" id="password"placeholder="Password" name="password">
   	</div>
   	
   	<div class="input-group-btn">
@@ -41,7 +41,6 @@
   	</div>
   	<div class ="help-btn">
   		  <button type="submit" class="btn" name="help">Help!</button>
-  		  
   		</div>
   </form>
 </body>

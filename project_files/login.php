@@ -1,17 +1,18 @@
 <?php include('server.php'); ?>
 <!DOCTYPE html>
 <html>
-<head>
-  <title>Quik-Sales Australia Login</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
-</head>
+<!--<head>-->
+<!--  <title>Quik-Sales Australia Login</title>-->
+<!--  <link rel="stylesheet" type="text/css" href="style.css">-->
+<!--</head>-->
+<?php include('includes/head.php')?>
 <body>
   
   <div class="header">
   	<h2 align="center"></a>Sign In</h2>
   </div>
 	 
-  <form method="post" action="server.php">
+  <form method="post" action="server.php" class="col-md-4 offset-md-4">
    <?php include('errors.php'); ?>  
   	
   	<div class="col-auto">
@@ -19,14 +20,15 @@
   	  
   	  
   	
-  	<div class="input-group" style="margin-left:100px">
-  		<label>Email Address</label>
-  		<input type="text" placeholder="Email Address"name="email" required>
+  	<div class="form-group">
+  		<label for="email">Email</label>
+  		<input type="text" class="form-control" id="email" placeholder="Email Address"name="email" required>
   	</div>
-  	<div class="input-group" style="margin-left:100px">
-  	  
-  		<label>Password</label>
-  		  	<input type="password"  placeholder="Password" name="password" required>
+  	
+  	<div class="form-group">
+  	  <label for="password">Password</label>
+  		<!--<label>Password</label>-->
+  		  	<input type="password" class="form-control" id="password" placeholder="Password" name="password" required>
   		</div>
   	
   		
