@@ -24,12 +24,12 @@
                      }
          
          //car make from GET
-         $model = $_GET['model'];
+         $model = $_GET['make'];
          //now me must run the query - the query needs to first be created in  MYSQL db.
          $query = "SELECT * FROM car WHERE make= ? ";
          
          $statement = $db -> prepare($query);
-         $statement -> bind_param('s', $make );
+         $statement -> bind_param('s', $model );
          $statement -> execute();
          $result = $statement -> get_result();
          ?>
