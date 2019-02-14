@@ -33,8 +33,8 @@
 </div>
 
  <div class="container" >
-  <?php echo"<br></br>"?>
-  <!--<h2>Catergories</h2>-->
+ 
+   <h2 class="categoriesText">Our current partners</h2>
   <div class = "row">
    <div class ="col-md-2">
     <!-- Please make this logo clickable -> it should lead to get_toyota_Models.php-->

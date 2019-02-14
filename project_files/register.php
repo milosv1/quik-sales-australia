@@ -39,8 +39,8 @@
   		Already a member? <a href="login.php">Sign in</a>
   	</p>
   	</div>
-  	<div class ="help-btn">
-  		  <button type="submit" class="btn" name="help">Help!</button>
+  	<div class ="home-btn">
+  		  <button type="submit" class="btn"  href="index.php" name="Home">Home</button>
   		</div>
   </form>
 </body>

@@ -7,6 +7,7 @@
 <!--</head>-->
 <?php include('includes/head.php')?>
 <body>
+     
   
   <div class="header">
   	<h2 align="center"></a>Sign In</h2>
@@ -21,14 +22,14 @@
   	  
   	
   	<div class="form-group">
-  		<label for="email">Email</label>
-  		<input type="text" class="form-control" id="email" placeholder="Email Address"name="email" required>
+  		-<label for="email">Email</label>   <!--     //removed required-->
+  		<input type="text" class="form-control" id="email" placeholder="Email Address"name="email" >
   	</div>
   	
   	<div class="form-group">
   	  <label for="password">Password</label>
   		<!--<label>Password</label>-->
-  		  	<input type="password" class="form-control" id="password" placeholder="Password" name="password" required>
+  		  	<input type="password" class="form-control" id="password" placeholder="Password" name="password" >
   		</div>
   	
   		
@@ -51,9 +52,9 @@
   		</div>
   		
   		
-  		<div class ="help-btn">
-  		  <button type="submit" class="btn"  name="help">Help!</button>
-  		  
+  		<div class ="home-btn">
+  		  <button type="submit" class="btn" href="index.php" name="home">Home</button>
+  		     
   		</div>
     
   </form>

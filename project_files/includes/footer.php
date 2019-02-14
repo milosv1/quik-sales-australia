@@ -10,7 +10,7 @@
 
           <!-- Grid column -->
           <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-            <h6 class="mb-0">Stay in touch with us on our Social Media Networks!</h6>
+            <h6 class="mb-0">Stay in touch with us via our Social Media Networks!</h6>
           </div>
           <!-- Grid column -->
 

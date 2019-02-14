@@ -170,5 +170,8 @@ text-align: right;
    
  }
 
-    
+    .signUpForm{
+      border:2px solid blue;
+      width: 90%;
+    }
     
