@@ -26,7 +26,7 @@ $result = $statement -> get_result();
                         echo "<div class=\"col-md-3\">
                         <h3>$model</h3>
                         <img class=\"img-fluid\" src=\"images/$image\">
-                        <p>$price</p>
+                        <p>$$price</p>
                         <p>$location</p>
                         </div>";
                     }

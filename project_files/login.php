@@ -12,7 +12,7 @@
   	<h2 align="center"></a>Sign In</h2>
   </div>
 	 
-  <form method="post" action="server.php" class="col-md-4 offset-md-4">
+  <form method="post" action="index.php" class="col-md-4 offset-md-4">
    <?php include('errors.php'); ?>  
   	
   	<div class="col-auto">

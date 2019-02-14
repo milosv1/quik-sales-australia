@@ -2,7 +2,7 @@
 
   <footer class="page-footer font-small unique-color-dark">
 
-    <div style="background-color: #6351ce;">
+    <div style="background-color: #007CC2;">
       <div class="container">
 
         <!-- Grid row-->
@@ -10,7 +10,7 @@
 
           <!-- Grid column -->
           <div class="col-md-6 col-lg-5 text-center text-md-left mb-4 mb-md-0">
-            <h6 class="mb-0">Get connected with us on social networks!</h6>
+            <h6 class="mb-0">Stay in touch with us on our Social Media Networks!</h6>
           </div>
           <!-- Grid column -->
 
@@ -59,7 +59,7 @@
           <!-- Content -->
           <h6 class="text-uppercase font-weight-bold">Quik-Sales Australia</h6>
           <hr class="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style="width: 60px;">
-          <p>Quik-Sales Australia is an online platform allowing users all over Australia to Buy/Sell their Vehicles Online in no time!.</p>
+          <p>Quik-Sales Australia is an online platform allowing users all over Australia to Buy/Sell their Vehicles Online in no time!</p>
 
         </div>
         <!-- Grid column -->
