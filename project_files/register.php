@@ -2,7 +2,8 @@
 
 <!DOCTYPE html>
 <html>
-<?php include('includes/head.php')?>
+<?php include('includes/head.php'); ?>
+<?php include('includes/navigation.php'); ?>
 <body>
   <div class="header">
      <h2 align="center"></a>Create an account</h2>
@@ -39,9 +40,11 @@
   		Already a member? <a href="login.php">Sign in</a>
   	</p>
   	</div>
-  	<div class ="home-btn">
-  		  <button type="submit" class="btn"  href="index.php" name="Home">Home</button>
-  		</div>
+  	
+  	<!--<div class ="home-btn">-->
+  	<!--	  <button type="submit" class="btn"  href="index.php" name="Home">Home</button>-->
+  	<!--	</div>-->
+  		
   </form>
 </body>
 </html>

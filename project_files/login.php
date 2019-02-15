@@ -5,7 +5,8 @@
 <!--  <title>Quik-Sales Australia Login</title>-->
 <!--  <link rel="stylesheet" type="text/css" href="style.css">-->
 <!--</head>-->
-<?php include('includes/head.php')?>
+<?php include('includes/head.php'); ?>
+<?php include('includes/navigation.php'); ?>
 <body>
      
   
