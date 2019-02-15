@@ -53,10 +53,10 @@
   		</div>
   		
   		
-  		<div class ="home-btn">
-  		  <button type="submit" class="btn" href="index.php" name="home">Home</button>
+  		<!--<div class ="home-btn">-->
+  		<!--  <button type="submit" class="btn" href="index.php" name="home">Home</button>-->
   		     
-  		</div>
+  		<!--</div>-->
     
   </form>
 </body>

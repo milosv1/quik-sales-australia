@@ -36,10 +36,11 @@
  
    <h2 class="categoriesText">Our current partners</h2>
   <div class = "row">
-   <div class ="col-md-2">
+   <div class ="col-md-3">
     <!-- Please make this logo clickable -> it should lead to get_toyota_Models.php-->
      <a href="get_model.php?make=toyota" class="btn btn-primary">Toyota</a>
       <a href="get_model.php?make=hyundai" class="btn btn-primary">Hyundai</a>
+      <a href="car.php" class="btn btn-primary">All Cars</a>
      
   </div>
    <div class ="col-md-2">
